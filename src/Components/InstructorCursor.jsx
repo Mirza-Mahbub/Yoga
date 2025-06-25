@@ -1,11 +1,11 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { useEffect } from "react";
 
-import SliderCard from "./Common/SliderCard";
-import cardData from "./Common/cardData";
+import InstructorCard from "./Common/InstructorCard";
+import instructorData from "./Common/instructorData";
 // Images
 
-export default function EmblaCarousel({ setEmblaApi }) {
+export default function InstructorCarousel({ setEmblaApi }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   useEffect(() => {
@@ -18,19 +18,15 @@ export default function EmblaCarousel({ setEmblaApi }) {
     <div className="carousel__wrapper">
       <div className="embla overflow-hidden w-full" ref={emblaRef}>
         <div className="embla__container flex">
-          {cardData.map((card, index) => (
+          {instructorData.map((card, index) => (
             <div
-              className="embla__slide flex-none w-full md:w-[calc((100%-2rem)/2)] lg:w-[calc((100%-2rem)/3)] bg-white  text-[1.2rem]  mr-4 box-border"
+              className="embla__slide flex-none w-full md:w-[calc((100%-2rem)/2)] lg:w-[calc((100%-2rem)/5)] bg-white  text-[1.2rem]  mr-4 box-border"
               key={index}
             >
-              <SliderCard
+              <InstructorCard
                 imgUrl={card.imgUrl}
-                classNum={card.classNum}
-                students={card.students}
-                instructor={card.instructor}
-                course={card.course}
-                cost={card.cost}
-                yogaStyle={card.yogaStyle}
+                classes={card.classes}
+                names={card.names}
               />
             </div>
           ))}

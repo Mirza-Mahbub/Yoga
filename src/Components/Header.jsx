@@ -17,7 +17,7 @@ export default function Header() {
             <Menu>Blog</Menu>
             <Menu>Features</Menu>
           </nav>
-          <Button styling="bg-[#5f857d] hover:bg-[#69938a]">
+          <Button styling="bg-[#5f857d] text-white hover:bg-[#69938a]">
             View Classes
           </Button>
           <div className="bg-[#5f857d] rounded-full p-2">

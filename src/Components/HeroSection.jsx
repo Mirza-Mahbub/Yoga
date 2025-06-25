@@ -25,7 +25,7 @@ export default function Hero() {
                 100,000+ customers. Our instructers are well- known and
                 certified.
               </p>
-              <Button styling="bg-[#f1615a] hover:bg-white hover:text-[#f1615a] mt-5">
+              <Button styling="bg-[#f1615a] text-white hover:bg-white hover:text-[#f1615a] mt-5">
                 Browse Courses
               </Button>
               <button className="w-fit">
@@ -52,7 +52,7 @@ export default function Hero() {
               Balance Yoga is the most popular online yoga classes, trusted by
               100,000+ customers. Our instructers are well- known and certified.
             </p>
-            <Button styling="bg-[#f1615a] hover:bg-white hover:text-[#f1615a] mt-5">
+            <Button styling="bg-[#f1615a] hover:bg-white text-white hover:text-[#f1615a] mt-5">
               Browse Courses
             </Button>
             <button className="w-fit">
