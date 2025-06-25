@@ -6,7 +6,7 @@ import Avatar from "./SVG/Avatar";
 export default function Header() {
   return (
     <div className="flex w-full justify-center bg-[#dbe8e7]">
-      <header className="flex justify-between items-center py-10 w-7xl ">
+      <header className="flex justify-between items-center py-10 w-full lg:w-4xl xl:w-6xl 2xl:w-7xl px-2.5 lg:px-0">
         <Logo texColor="text-[#404b48]" />
         <div className="flex justify-center items-center gap-5">
           <nav className="flex justify-between items-center gap-10 px-4">

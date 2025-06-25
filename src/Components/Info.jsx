@@ -6,7 +6,7 @@ import InfoCard from "./Common/InfoCard";
 export default function Info() {
   return (
     <div className="w-full flex justify-center py-10 bg-[#f5f5f5]">
-      <div className="w-7xl flex justify-between">
+      <div className=" w-full lg:w-4xl xl:w-6xl 2xl:w-7xl flex flex-col lg:flex-row justify-between">
         <InfoCard
           imgUrl={icon1}
           heading="Many Styles"

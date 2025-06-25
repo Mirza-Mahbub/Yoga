@@ -15,7 +15,7 @@ export default function Pricing() {
 
   return (
     <div>
-      <div className=" flex flex-col gap-5 w-7xl mx-auto py-16 ">
+      <div className=" flex flex-col gap-5 w-full lg:w-4xl xl:w-6xl 2xl:w-7xl mx-auto py-16 ">
         <Heading text="Popular Online Classes" styling="mt-10" />
         <div className="flex justify-between">
           <p className="text-[#878787] w-3xl ">

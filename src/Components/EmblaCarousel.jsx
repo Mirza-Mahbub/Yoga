@@ -20,7 +20,7 @@ export default function EmblaCarousel({ setEmblaApi }) {
         <div className="embla__container flex">
           {cardData.map((card, index) => (
             <div
-              className="embla__slide flex-none w-full md:w-[calc((100%-2rem)/3)] bg-[#eee] rounded-lg  text-center text-[1.2rem] shadow-[0_2px_6px_rgba(0,0,0,0.1)] mr-4 box-border"
+              className="embla__slide flex-none w-full md:w-[calc((100%-2rem)/4)] bg-white  text-[1.2rem]  mr-4 box-border"
               key={index}
             >
               <SliderCard

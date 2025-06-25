@@ -6,7 +6,7 @@ export default function DownArrow() {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="mt-32"
+      className="mt-2.5 lg:mt-32"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g
