@@ -1,3 +1,4 @@
+import Banner from "./Components/Banner";
 import Foundation from "./Components/Foundation";
 import Header from "./Components/Header";
 import Hero from "./Components/HeroSection";
@@ -14,6 +15,7 @@ export default function App() {
       <Pricing />
       <Foundation />
       <Instructor />
+      <Banner />
     </div>
   );
 }
